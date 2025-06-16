@@ -1,0 +1,262 @@
+.reservation {
+    margin: 20px;
+    background-color: #fefefe;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header-text {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.header-paragraph {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 1em;
+}
+
+.calendar {
+    width: 100%;
+    margin-top: 40px;
+    display: grid;
+    place-items: center;
+}
+
+.calendar input {
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.calendar input:focus {
+    background-color: white;
+}
+
+.process-ticket {
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+}
+
+.employee {
+    margin-top: 25px !important;
+}
+
+.process-ticket .process-ticket-header {
+    background-color: #96c1e1;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+.process-ticket .process-body {
+    border-right: 1px gray solid;
+    border-left: 1px gray solid;
+    border-bottom: 1px gray solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 30px;
+}
+
+.process-ticket .process-body .process-input-employee {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    margin: auto;
+}
+
+.process-ticket .process-body .process-input-employee .input-fields {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 8px;
+}
+
+.process-ticket .process-body .process-input-employee .input-fields .selection {
+    width: 171px;
+    align-items: center;
+    gap: 10px;
+}
+
+.process-ticket .process-body .process-input-employee .input-fields input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 20rem;
+    border: 1px black solid;
+}
+
+.process-ticket .process-body .process-input-employee .input-fields #quantity {
+    width: 11em;
+    margin-top: 8px;
+    padding: 11px;
+}
+
+.process-ticket .process-body .process-input-employee .input-fields select {
+    width: 21.5rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.dropdown {
+    width: 100% !important;
+    padding: 0;
+    margin-top: 8px;
+}
+
+.row-employee {
+    flex-direction: row !important;
+    gap: 8px !important;
+    width: 344px;
+}
+
+.hr {
+    margin: 30px auto;
+}
+
+.hr-ticket {
+    margin: auto;
+}
+
+.process-body .display-tickets {
+    width: calc(100% - 48px);
+    margin: auto;
+}
+
+.process-body .display-tickets .table-header {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 6px;
+}
+
+.process-body .display-tickets .table-header h4 {
+    margin: 5px 50px;
+}
+
+.process-body .display-tickets .table-header .delete-space {
+    padding: 15px;
+}
+
+.process-body .display-tickets .table-body .table-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.process-body .display-tickets .table-body .table-row p {
+    width: 7.5em;
+    text-align: right;
+}
+
+.process-body .display-tickets .table-body .table-row .quantity-container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: 55px;
+}
+
+.process-body .display-tickets .table-body .table-row .quantity-container button {
+    border-radius: 50px;
+    border: 1px solid gray;
+    width: auto;
+    cursor: pointer;
+}
+
+.process-body .display-tickets .table-body .table-row button {
+    border: none;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+
+.process-body .display-tickets .sub-total {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.process-body .display-tickets .sub-total #label {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.process-body .add-ticket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+}
+
+.process-body .add-ticket button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 30%;
+    border: none;
+    background-color: #3780f1;
+    color: #FEFEFE;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: background-color .2s ease;
+    cursor: pointer;
+}
+
+.process-body .add-ticket button:hover {
+    background-color: #0b6dff;
+}
+
+.process-body form .checkout-container {
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100px;
+}
+
+.process-body form .checkout-container button {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 30%;
+    border: none;
+    color: black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    transition: background-color .2s ease;
+}
+
+#cancel-checkout {
+    background-color: rgb(228, 222, 222);
+}
+
+#cancel-checkout:hover {
+    background-color: rgb(196, 190, 190);
+}
+
+#checkout {
+    background-color: #3780f1;
+    color: white;
+}
+
+#checkout:hover {
+    background-color: #0b6dff;
+}

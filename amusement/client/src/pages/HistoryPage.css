@@ -1,0 +1,57 @@
+.payment-receipts {
+    margin: 20px;
+    background-color: #fefefe;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px 20px 50px 20px;
+}
+
+.payment-receipts .titles {
+    padding-left: 20px;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.payment-receipts .titles h2 {
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+.payment-receipts .details-container {
+    width: 90%;
+    margin: auto;
+    padding: 40px 5px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.payment-receipts .details-container .print-container {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.payment-receipts .details-container #print-receipt {
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 20%;
+    border: none;
+    color: black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    cursor: pointer;
+    transition: background-color .2s ease;
+    border: 1px solid gray;
+}
+
+#print-receipt:hover {
+    background-color: rgb(202, 197, 197);
+}

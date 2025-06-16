@@ -1,0 +1,92 @@
+.container-login {
+  display: flex;
+  height: 100vh;
+}
+
+.form-container-login {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 0;
+  width: 400px;
+  max-width: 100%;
+}
+
+.form-container-login form {
+  max-width: 400px;
+  width: 130%;
+  margin: 5rem auto 5rem;
+  padding: 2rem 3em;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-left: 10vh;
+  margin-right: 10px;
+}
+
+.form-container-login h1 {
+  margin: 40px auto;
+}
+
+.form-container-login input[type="email"],
+.form-container-login input[type="password"],
+.form-container-login select {
+  width: 90%;
+  padding: 15px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: 2px solid #fffffe;
+  background-color: rgb(245, 255, 190);
+  font-size: 16px;
+}
+
+.form-container-login select {
+    width: 98%;
+    text-align: center;
+}
+
+.form-container-login select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='14'%20height='10'%20viewBox='0%200%2014%2010'%3E%3Cpath%20fill='none'%20stroke='%23666'%20stroke-width='2'%20d='M1%201l6%206%206-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 14px 10px;
+    width: 98%;
+    text-align: center;
+}
+
+.form-container-login button {
+  width: 40%;
+  padding: 10px;
+  background-color: #c02626;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.form-container-login button:hover {
+  background-color: #882121;
+}
+
+.background-image {
+  flex: 1;
+  background-image: url('../assets/coaster.jpg');
+  background-size: cover;
+  height: 100vh;
+  mask-image: linear-gradient(to right, transparent 10%, rgb(255, 255, 255) 50%);
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+}

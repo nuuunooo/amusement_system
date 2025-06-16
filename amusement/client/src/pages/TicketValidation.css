@@ -1,0 +1,142 @@
+.card-validate {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 30px 35px 30px 35px;
+    max-width: 420px;
+    width: 100%;
+    box-shadow: 0 3px 8px rgb(0 0 0 / 0.1);
+    position: relative;
+    top: 120px;
+    left: 295px;
+  }
+
+  .icon-wrapper {
+    background-color: #cce0ff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-wrapper svg {
+    width: 28px;
+    height: 28px;
+    fill: #3558f6;
+  }
+
+  .card-validate h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #111827;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+    color: #6b7280;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 8px;
+  }
+
+  .input-group {
+    display: flex;
+    width: 100%;
+  }
+
+  input[type="text"] {
+    flex: 1;
+    border: 1.5px solid #d1d5db;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+    padding: 12px 15px;
+    font-family: monospace, monospace;
+    font-size: 0.9rem;
+    color: #6b7280;
+    outline-offset: 2px;
+    transition: border-color 0.3s ease;
+  }
+
+  input[type="text"]::placeholder {
+    color: #9ca3af;
+    font-family: monospace, monospace;
+  }
+
+  input[type="text"]:focus {
+    border-color: #3558f6;
+  }
+
+  .input-group button {
+    background-color: #3558f6;
+    border: none;
+    color: white;
+    font-weight: 600;
+    padding: 12px 18px;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: background-color 0.3s ease;
+  }
+
+  .input-group button svg {
+    fill: white;
+    width: 16px;
+    height: 16px;
+  }
+
+  .input-group button:hover {
+    background-color: #2646d1;
+  }
+
+  .action-buttons {
+    margin-top: 28px;
+    display: flex;
+    gap: 16px;
+  }
+
+  .action-buttons button {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 12px 0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .clear-btn {
+    background-color: #f3f4f6;
+    color: #111827;
+  }
+
+  .clear-btn:hover {
+    background-color: #e5e7eb;
+  }
+
+  .validate-btn {
+    background-color: #bdbdbd;
+    color: #111827;
+  }
+
+  .validate-btn:hover {
+    background-color: #a9a9a9;
+  }
